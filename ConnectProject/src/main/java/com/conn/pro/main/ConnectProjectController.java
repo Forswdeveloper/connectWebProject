@@ -9,7 +9,7 @@ public class ConnectProjectController {
 	
 	@RequestMapping(value ="/")
 	public String connectMain() {
-		System.err.println("Test");
+		
 		return "connectMain";
 	}
 }
